@@ -5,11 +5,13 @@ This is a Maven-based Selenium TestNG automation framework for the Luma eCommerc
 
 **Java version recommended: 17**
 
+---
+
 ## Project Structure (Maven-based):  
 **Luma (Project Name)**
-**│**
-**├── allure-report/**
-**├── allure-results/**
+│
+├── allure-report/
+├── allure-results/
 ├── logs/
 ├── screenshots/
 │
@@ -61,4 +63,8 @@ This is a Maven-based Selenium TestNG automation framework for the Luma eCommerc
 
 ```bash
 mvn clean test
+
+---
+
+## Test
 
