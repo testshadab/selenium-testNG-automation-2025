@@ -1,0 +1,1 @@
+{"89d2fe2e3076ca9671fab60c69ceab08":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"be3d37e9923d0de9","status":"failed","statusDetails":"Checkbox is not selected. expected [true] but found [false]","time":{"start":1746771039105,"stop":1746771042776,"duration":3671}}]}}

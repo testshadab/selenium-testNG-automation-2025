@@ -1,0 +1,1 @@
+{"uuid":"28a62f78-2333-440a-b9f8-49ef73a8c46a","name":"org.example.testcases.SandboxCheckboxTest","children":["d5b22d7f-884b-4c4a-b6f7-3be1153ac72d"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1746771043040,"stop":1746771043486}],"start":1746771035073,"stop":1746771043495}
