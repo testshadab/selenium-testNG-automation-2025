@@ -5,8 +5,6 @@ This is a Maven-based Selenium TestNG automation framework for the Luma eCommerc
 
 **Java version recommended: 17**
 
----
-
 ## Project Structure (Maven-based):  
 **Luma (Project Name)**
 │
@@ -60,11 +58,11 @@ This is a Maven-based Selenium TestNG automation framework for the Luma eCommerc
 ---
 
 ## How to Run
-
-```bash
+Run the below-mentioned command in the terminal:
 mvn clean test
 
+## Generate Allure Report
+ ** After running the tests, generate the Allure report using:
+ ---
+ ** allure generate allure-results --clean -o allure-report
 ---
-
-## Test
-
