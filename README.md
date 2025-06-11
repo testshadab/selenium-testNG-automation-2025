@@ -3,13 +3,30 @@
 **Java version recommended: 17**
 
 ## Project Structure (Maven-based):  
-**src/main/java/com/framework**  
-**├── base/BaseTest.java**  
-**├── pages/LoginPageFactory.java**   
-**├── pages/LoginPageBy.java**   
-**├── utils/JavaScriptUtils.java**   
-**├── utils/WaitUtils.java**   
-**├── config/ConfigReader.java**   
-**src/test/java/com/tests/LoginTest.java**   
-**├── resources/config.properties**   
+**Luma (Project Name)**
+**├── allure-report**
+**├── allure-results**
+**├── logs**
+**├── screenshots**
+ **src/main/java/org.example**  
+ **├── base/BaseTest.java**
+ **├── config/ConfigReader**  
+ **├── pages/LoginPageFactory.java**   
+ **├── pages/LoginPageBy.java**   
+ **├── retryanalyzer/AnnotationTransformer** 
+ **├── retryanalyzer/RetryAnalyzer**
+ **├── utils/Constants**
+ **├── utils/ExcelUtils**
+ **├── utils/ExcelWriterUtils**
+ **├── utils/JavaScriptUtils**   
+ **├── utils/WaitUtils**  
+**src/main/resources**
+ **├── config.properties**
+ **├── log4j2.xml**
+ **├── qa.properties**
+ **├── TestData.xlsx**
+**src/test/java/org.example**
+ **├── testcases/AddToCartTest**
+ **├── testcases/LoginWithByLocatorsTest**
+**├── pom.xml**
 **├── testng.xml**   
