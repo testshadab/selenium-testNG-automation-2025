@@ -7,18 +7,12 @@ This is a Maven-based Selenium TestNG automation framework for the Luma eCommerc
 
 ## Project Structure (Maven-based):  
 **Luma (Project Name)**
-│
-**
-├── allure-report/
-** 
-├── allure-results/
-** 
+-│
+-├── allure-report/
+-├── allure-results/
 ├── logs/
-**
 ├── screenshots/
-**
 │
-**
 ├── src/main/java/org.example
 │ ├── base/BaseTest.java
 │ ├── config/ConfigReader
@@ -31,17 +25,13 @@ This is a Maven-based Selenium TestNG automation framework for the Luma eCommerc
 │ ├── utils/ExcelWriterUtils
 │ ├── utils/JavaScriptUtils
 │ └── utils/WaitUtils
-**
 │
-**
 ├── src/main/resources
 │ ├── config.properties
 │ ├── log4j2.xml
 │ ├── qa.properties
 │ └── TestData.xlsx
-**
 │
-**
 ├── src/test/java/org.example
 │ ├── testcases/AddToCartTest
 │ └── testcases/LoginWithByLocatorsTest
