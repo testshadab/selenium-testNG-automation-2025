@@ -9,7 +9,7 @@ This is a Maven-based Selenium TestNG automation framework for the Luma eCommerc
 **Luma (Project Name)**
 **│**
 **├── allure-report/**
-├── allure-results/
+**├── allure-results/**
 ├── logs/
 ├── screenshots/
 │
