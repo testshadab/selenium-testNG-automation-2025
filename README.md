@@ -63,7 +63,7 @@ Run the below-mentioned command in the terminal:
 mvn clean test
 
 ## Generate Allure Report
-**After running the tests, generate the Allure report using:
+After running the tests, generate the Allure report using:
 ---
 allure generate allure-results --clean -o allure-report
 
