@@ -21,6 +21,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+import static org.example.utils.Constants.*;
+
 
 public class BaseTest {
     public WebDriver driver;
@@ -59,19 +61,19 @@ public class BaseTest {
     // @Parameters("browser")  //Parameterization
     public void setup() throws IOException {
         logger.info("Starting Before Method");
-        ConfigReader.loadProperties("qa");
-        String browser = ConfigReader.getProperty("browser");
+        ConfigReader.loadProperties(ENV);
+        String browser = ConfigReader.getProperty(BROWSER);
 
-        if (browser.equalsIgnoreCase("chrome")) {
+        if (browser.equalsIgnoreCase(CHROMEBROWSER)) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-        } else if (browser.equalsIgnoreCase("firefox")) {
+        } else if (browser.equalsIgnoreCase(FIREFOXBROWSER)) {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
         }
 
         driver.manage().window().maximize();
-        driver.get(ConfigReader.getProperty("hrmurl"));
+        driver.get(ConfigReader.getProperty(BROWSERURL));
         logger.info("Before Method Executed");
     }
 
