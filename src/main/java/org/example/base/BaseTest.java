@@ -61,7 +61,10 @@ public class BaseTest {
     // @Parameters("browser")  //Parameterization
     public void setup() throws IOException {
         logger.info("Starting Before Method");
-        ConfigReader.loadProperties(ENV);
+        String env = System.getProperty("env", "qa"); // default = qa
+        ConfigReader.loadProperties(env);
+        logger.info("Running tests on environment: " + env);
+        // ConfigReader.loadProperties(ENV);
         String browser = ConfigReader.getProperty(BROWSER);
 
         if (browser.equalsIgnoreCase(CHROMEBROWSER)) {
