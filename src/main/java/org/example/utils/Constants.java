@@ -8,6 +8,6 @@ public class Constants {
     public static final String BROWSER = "browser";
     public static final String CHROMEBROWSER = "chrome";
     public static final String FIREFOXBROWSER = "firefox";
-    public static final String BROWSERURL = "hrmurl";
+    public static final String BROWSERURL = "baseurl";
 
 }
